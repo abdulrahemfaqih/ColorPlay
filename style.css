@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.target {
+  background-color: rgb(240, 240, 240);
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin-bottom: 5rem;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+button:active {
+  border: none;
+}
+
+.lightBlue {
+  background-color: rgb(200, 231, 242);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: flex;
+}
+.satu,
+.dua,
+.tiga {
+  margin: 1rem;
+}
+.kotak {
+  height: 25px;
+  width: 25px;
+  margin: 10px auto;
+}
+.merah {
+  background-color: red;
+}
+.hijau {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .target h1 {
+    font-size: 20px;
+  }
+  .kotak {
+    height: 25px;
+    width: 25px;
+    margin: 10px auto;
+    border-radius: 3px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 200px;
+  }
+}
